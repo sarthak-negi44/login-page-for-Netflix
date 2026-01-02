@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+}
+
+body{
+   
+    font-family: Helvetica Neue,Segoe UI,Roboto, Ubuntu,sans-serif;
+    height: 100vh;
+    width: 100%;
+    max-height: 100%;
+  overflow: hidden;
+}
+.background-img{
+
+    width: 100%;
+    height: 100%;
+    background-image: url(https://wallpapers.com/images/hd/netflix-background-gs7hjuwvv2g0e9fj.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-color: rgb(26, 27, 27);
+
+   
+
+}
+
+.nav-header{
+    height: 8vh;
+    width: 100vw;
+    max-width: 100%;
+    font-size: 1rem;
+   padding: 2em;
+   z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: 30em;
+  
+}
+.heading-part-one{
+    font-size: 1rem;
+    height: 5em;
+    width: 50vw;
+    max-width: 100%;
+    margin-left: 2%;
+
+    
+}
+.nev-netflix-logo{
+    font-size: 1rem;
+    height: 6em;
+    width: 18em; 
+    background-image: url(netflixwallpapery.png);
+    background-size: cover;
+  
+
+   
+}
+.heading-part-two{
+  width: 50vw;
+  max-width: 100%;
+    font-size: 1rem;
+   max-width: 20em;
+   display: flex;
+   justify-content: space-evenly;
+   padding-right: 4%;
+   
+
+}
+select{ 
+    height: auto;
+    width: auto;
+    font-size: 1rem;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    border-radius: 5px;
+   
+   
+    
+
+}
+#language{
+    background-color: rgba(25, 24, 24,0.3);
+    color: white;
+    border: 1px solid white;
+    font-size: 16px;
+    cursor: pointer;
+}
+#language option{
+    background-color: black;
+    color: white;
+      border-radius: 5px;
+
+}
+#nev-signin{
+       height: auto;
+       width: auto;
+     font-size: 1rem;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    border-radius: 5px;
+    gap: 7%;
+    background-color: red;
+    font-size: 16px;
+    cursor: pointer;
+    color: aliceblue;
+    border-style: none;
+   
+}
+.nav-main-class{
+    width: 100%;
+    max-width: 40vw;
+    text-align: center;
+    justify-content: center;
+    z-index: 2;
+    margin: 14% 0 0 30%;
+}
+#nav-main{
+    max-width: 65vw;
+    width: 100%;
+    font-size: 50px;
+    color: white;
+}
+#nav-p{
+    max-width: 65vw;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+}
+#nav-h{
+    max-width: 40vw;
+    width: 100%;
+    font-size: 15px;
+    color: white;
+    margin-top: 10px;
+}
+.nav-search{
+     max-width: 650px;
+    width: 100%;
+    font-size: 15px;
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+#ser{
+     height: 45px;
+    width: 330px;
+    border-radius: 5px;
+    font-size: larger;
+    background-color: transparent;
+    border: 1px solid white;
+      
+       color: white;
+}
+#button{
+ height: 45px;
+    width: 150px;
+    margin-left: 7px;
+     border-radius: 5px;
+       background-color: red;
+       border-style: none;
+       color: white;
+        font-size: larger;
+}
+
+@media(max-width: 450px)
+{
+    .background-img{
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        overflow: hidden;
+    }
+        .nev-netflix-logo{
+             background-image: url(netflixwallpapery.png);
+    background-size: cover;
+     z-index: 2;
+   
+    align-items: center;
+    font-size: 1rem;
+    margin-left: 1em;
+        }
+     .nav-main-class{
+            
+           width: 100vw;
+           max-width: 100%;
+           margin-top: 40%;
+           margin-left: 0%;
+           z-index: 3;
+           
+          
+        }
+        #nav-main {
+    font-size: 1.5rem;
+  
+    color: white;
+    margin-left: 15%;
+        }
+        #nav-h{
+            display: none;
+        }
+        #nav-p{
+            font-size: 1rem;
+             margin-left: 15%;
+        }
+        .nav-search{
+            display: flex;
+            flex-direction: column;
+              margin: 10% 0 0 10%;
+              
+       
+        }
+        #ser{
+     height: 45px;
+    width: 80vw;
+    margin-bottom: 10px;
+    margin-right: 9%;
+}
+#button{
+      font-size: 1rem;
+         margin-left: 5.2em;
+}
+}
+
+
